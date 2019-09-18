@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-img = cv2.imread("musk.jpg")
+img = cv2.imread("images/musk.jpg")
 
 kernel_size = 3
 # Create a 5*5 kernel with all elements equal to 1

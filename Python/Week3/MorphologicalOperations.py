@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Opening (Erosion and then Dilation) is used to clear small white spots
 # Closing (Dilation and then Erosion) is used to clear small black spots
 
-image = cv2.imread("opening.png", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("images/opening.png", cv2.IMREAD_GRAYSCALE)
 
 # Specify Kernel Size
 kernelSize = 10
@@ -47,7 +47,7 @@ plt.subplot(122);plt.imshow(imageMorphOpened, cmap='gray');plt.title("After Open
 plt.waitforbuttonpress(0)
 plt.close()
 
-image = cv2.imread("closing.png", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("images/closing.png", cv2.IMREAD_GRAYSCALE)
 
 # Specify Kernel Size
 kernelSize = 10
