@@ -1,4 +1,3 @@
-# Enter your code here
 import cv2
 import numpy as np
 
@@ -10,7 +9,6 @@ def click(event, x, y, flags, param):
     clickLocation = (x, y)
 
     if event == cv2.EVENT_LBUTTONDOWN:
-        print("Clicked son!")
         imgBlur = cv2.blur(roi, (3,3), 5)
         sobelxy = cv2.Sobel(imgBlur, cv2.CV_32F, 1, 1)
         mask = 255 * np.ones(roi.shape, roi.dtype)
