@@ -7,3 +7,8 @@ Input video is of a football (soccer) game, and the resized captures frames cons
 The aim of the application is to constantly keep track of the ball while maintaining a relatively high framerate.
 
 Requires [YOLOv3 weights](https://pjreddie.com/media/files/yolov3.weights) to run!
+
+### Output frame during tracking
+![image](https://i.ibb.co/WBSF6yk/1.png)
+### Output frame during detection
+![image](https://i.ibb.co/gjb4Y1w/2.png)
